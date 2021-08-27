@@ -1,0 +1,358 @@
+
+/* Header section - beginning */
+
+    #topbar {
+
+        background-color: #2F3136;
+        width: 100%;
+        height: 45px;
+        border-bottom: 1px #232428 solid;
+
+    }
+
+    #topbar-container {
+
+        width: 1875px;
+        height: 100%;
+        background-color: transparent;
+        margin: 0 auto;
+
+    }
+
+    #gg-logo img {
+
+        height: 43px;
+        margin: 3px 0px 0px 0px;
+        float: left;
+
+    }
+
+    #gg-logo-text img {
+
+        height: 25px;
+        float: left;
+        margin: 10px 15px 10px 10px;
+
+    }
+
+    #gg-logo-arrow img {
+
+        float: left;
+        height: 13px;
+        padding: 15px 0px 0px 0px;
+
+    }
+
+    #creator-code {
+
+        margin: 14px 0px 0px 15px;
+        float: left;
+        padding-left: 232px;
+
+    }
+
+    .creator-code-white {
+
+        color: white;
+        font-family: 'Nunito',-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,Helvetica,Geneva,sans-serif;
+        font-size: 75%;
+
+    }
+
+    .creator-code-green {
+
+        color: #89FB39;
+        font-family: 'Nunito',-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,Helvetica,Geneva,sans-serif;
+        font-size: 93%;
+
+    }
+
+    .creator-code-ad {
+
+        float: left;
+        font-family: 'Nunito',-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,Helvetica,Geneva,sans-serif;
+        font-size: 10px;
+        margin: -12px 0px 0px 3px;
+        color: white;
+        opacity: 20%;
+
+    }
+
+    #topbar-menu {
+
+        float: left;
+        margin-left: 180px;
+
+    }
+
+    #topbar-menu a {
+
+        color: white;
+        text-decoration: none;
+        opacity: 90%;
+        font-family: 'Nunito',-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,Helvetica,Geneva,sans-serif;
+        font-size: 90%;
+        float: left;
+        margin: 10px 10px 0px 15px;
+
+    }
+
+    .topbar-menu-adjustments {
+
+        padding-left: 7px;
+
+    }
+
+    #topbar-menu a:hover {
+
+        color: #89FB39;
+
+    }
+
+    #topbar-menu a:active {
+
+        color: #ffffff;
+        font-weight: bold;
+
+    }
+
+    #topbar-menu img {
+
+        width: 15px;
+        float: left;
+        margin: 18px 0px 0px -4px;
+
+    }
+
+    #topbar-menu-end-icons img {
+
+        width: 27px;
+        float: left;
+        margin: 9px -3px 0px 16px;
+
+    }
+
+/* Body section - beginning */
+
+    body {
+
+        margin: 0;
+        padding: 0;
+
+    }
+
+    #create-account-section {
+
+        background-color: transparent;
+        width: 100%;
+        height: 280px;
+
+    }
+
+    #create-account-section-container {
+
+        width: 1150px;
+        height: 100%;
+        background-color: transparent;
+        margin: 0 auto;
+
+    }
+
+    #create-account-section-container-centered {
+
+        width: 299px;
+        height: 85%;
+        background-color: transparent;
+        margin: 0 auto;
+        position: relative;
+        top: 42px;
+
+    }
+
+    .register-row {
+
+        background-color: #44464A;
+        width: 285px;
+        height: 31px;
+        border: 1px #7C7E81 solid;
+        border-radius: 10px;
+        padding-left: 10px;
+        outline: none;
+        color: white;
+        font-size: 16px;
+
+    }
+
+    #email-row {
+
+        margin-bottom: 25px;
+
+    }
+
+    #email-row:focus{
+
+        border: 1px white solid;
+
+    }
+
+    #username-row {
+
+        margin-bottom: 25px;
+
+    }
+
+    #password-row {
+
+        margin-bottom: 25px;
+
+    }
+
+    #username-row:focus{
+
+        border: 1px white solid;
+
+    }
+
+    #password-row:focus{
+
+        border: 1px white solid;
+
+    }
+
+    ::placeholder {
+
+        color: #989DA9;
+        font-family: 'Nunito',-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,Helvetica,Geneva,sans-serif;
+        font-weight: 250;
+
+    }
+
+    #register-button {
+
+        background-color: #8BFF3A;
+        border: none;
+        border-radius: 10px;
+        color: #2F3136;
+        font-family: 'Nunito',-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,Helvetica,Geneva,sans-serif;
+        font-weight: 600;
+        padding: 10px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 100px;
+        border-top: 2px white solid;
+
+    }
+
+    #register-button:hover {
+
+        background-color: #2F3136;
+        border: 2px #8BFF3A solid;
+        color: #8BFF3A;
+
+    }
+
+    #credentials-section {
+
+        background-color: transparent;
+        width: 100%;
+        height: 550px;
+
+    }
+
+    #credentials-section-container {
+
+        width: 1150px;
+        height: 100%;
+        background-color: transparent;
+        margin: 0 auto;
+
+    }
+
+    #credentials-section-container p {
+
+        font-size: 15px;
+        font-weight: 220;
+        color: white;
+        font-family: 'Nunito',-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,Helvetica,Geneva,sans-serif;
+        margin-top: -8px;
+        margin-left: 10px;
+        position: relative;
+        top: 53px;
+
+    }
+
+/* Footer section - beginning */
+
+    #footer-section {
+
+        background-color: transparent;
+        width: 100%;
+        height: 70px;
+        position: fixed;
+        padding: 10px 10px 0px 10px;
+        bottom: 0;
+
+    }
+
+    #footer-section p {
+
+        font-size: 15px;
+        font-weight: 220;
+        color: white;
+        font-family: 'Nunito',-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,Helvetica,Geneva,sans-serif;
+        text-align: center;
+
+    }
+
+    #footer-section a {
+
+        text-decoration: none;
+        color: #B2B3B5;
+        text-align: center;
+        font-family: 'Nunito',-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,Helvetica,Geneva,sans-serif;
+        font-size: 13px;
+        font-weight: 250;
+        margin-right: 7px;
+        position: relative;
+        left: 832px;
+        bottom: 7px;
+
+    }
+
+    #footer-section a:hover {
+
+        color: #89FB39;
+        text-decoration: underline;
+
+    }
+
+/* Page section - beginning */
+
+    .clear {
+
+        clear: both;
+
+    }
+
+    html {
+
+        background-color: #2F3136;
+        background-size: cover;
+
+    }
+
+    ::selection {
+
+        background: #8BFF3A; /* WebKit/Blink Browsers */
+        color: #2F3136;
+
+    }
+
+    ::-moz-selection {
+
+        background: #8BFF3A; /* Gecko Browsers */
+        color: #2F3136;
+
+    }
